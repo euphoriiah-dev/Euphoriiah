@@ -4,13 +4,26 @@
     justify-content: space-between;
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
+/*________________NAV______________________*/
 .header-container .nav-container{
+    display: flex;
+}
+.header-container nav{
     display: flex;
     flex-direction: row;
 }
+.header-container nav .btn-container{
+    margin: 0 1em 0 0;
+}
+.header-container nav .btn-container .icons{
+    font-size: 25px;
+}
+/*_________________LOGO___________________*/
 .header-container .logo-container{
     width: 200px;
     height: 200px;

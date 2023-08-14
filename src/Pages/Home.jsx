@@ -1,4 +1,7 @@
+// React Imports
 import React from "react";
+// Style Import
+import '../Pages/style/home.css'
 
 function Home (){
     return (
