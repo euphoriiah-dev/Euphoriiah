@@ -1,7 +1,10 @@
+// React Imports
 import React from "react"
 import { Link } from 'react-router-dom'
+// Style & Components
 import '../Components/style/header.css'
 import Logo from '../Assets/Logo/logo_1.webp'
+//Font Awesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faImage, faFileSignature ,faPhotoFilm} from '@fortawesome/free-solid-svg-icons';
 
