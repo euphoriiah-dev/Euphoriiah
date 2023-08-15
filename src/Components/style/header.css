@@ -1,3 +1,11 @@
+:root{
+    --blue: #94BCE9;
+    --alternative-blue: #4273ac;
+    --pink: #EEAECA ;
+    --alternative-pink: #E080AA ;
+    --text-color : #fff;
+    --alternative-text-color: #000 ;
+  }
 .header-container{
     display: flex;
     flex-direction: row;
@@ -43,8 +51,8 @@
 }
 /*_________________LOGO___________________*/
 .header-container .logo-container{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     position : absolute;
 }
 #logo1{
