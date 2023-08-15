@@ -8,6 +8,8 @@
     background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom: #ffffff solid 1px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.659);
 }
 /*________________NAV______________________*/
 .header-container .nav-container{
@@ -18,10 +20,26 @@
     flex-direction: row;
 }
 .header-container nav .btn-container{
-    margin: 0 1em 0 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px 0 0;
 }
-.header-container nav .btn-container .icons{
-    font-size: 25px;
+.header-container nav .icons{
+    position: absolute;
+    margin: 30px 0 0 25px;
+    width: 1.3em;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    border: solid #ffffff 1px;
+    box-shadow: 1px 1px 6px rgb(0, 0, 0);
+    transition-duration: 600ms;
+    z-index: 2;
+    font-size: 25px; 
+}
+.header-container nav .icons:hover{
+  transition: 100ms ease;
+  width: 35px;
+  background-color: #ffffff;
 }
 /*_________________LOGO___________________*/
 .header-container .logo-container{

@@ -6,39 +6,32 @@ import '../Components/style/header.css'
 import Logo from '../Assets/Logo/logo_1.webp'
 //Font Awesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faImage, faFileSignature ,faPhotoFilm} from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faImage, faBriefcase ,faPhotoFilm} from '@fortawesome/free-solid-svg-icons';
 
 function Header () {
     return (
         <section className="header-container">
             <nav>
                     <div class="btn-container">
-                    
+                      <Link to='/'>
                         <div class="button" id="btn-1">
                             <FontAwesomeIcon icon={faHouse} className="icons" />
                         </div> 
-            
+                      </Link>
                     </div>
                     <div class="btn-container">
-                
+                      <Link to='#'>
                         <div class="button" id="btn-2">
-                            <FontAwesomeIcon icon={faImage} className="icons" />          
+                            <FontAwesomeIcon icon={faImage} className="icons"/>       
                         </div> 
-                
+                      </Link>
                     </div>
                     <div class="btn-container">
-                
-                        <div class="button" id="btn-3">
-                            <FontAwesomeIcon icon={faFileSignature} className="icons" />
-                        </div> 
-                
-                    </div>
-                    <div class="btn-container">
-                
+                      <Link to='#'>
                         <div class="button" id="btn-4">
-                            <FontAwesomeIcon icon={faPhotoFilm} className="icons" />
+                        <FontAwesomeIcon icon={faBriefcase} className="icons" />
                         </div> 
-                
+                      </Link>
                     </div>
             </nav>
             <div logo-container>

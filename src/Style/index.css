@@ -1,3 +1,11 @@
+:root{
+  --blue: #94BCE9;
+  --alternative-blue: #4273ac;
+  --pink: #EEAECA ;
+  --alternative-pink: #E080AA ;
+  --text-color : #fff;
+  --alternative-text-color: #000 ;
+}
 body {
   margin: 0;
   width: 100%;
@@ -16,4 +24,10 @@ p{
 }
 h1{
  font-family: 'Raleway';
+}
+a:visited{
+ color: var(--alternative-text-color);
+}
+a:hover{
+color: var(--alternative-blue);
 }
