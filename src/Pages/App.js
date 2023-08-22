@@ -7,7 +7,7 @@ import Header from '../Components/Header'
 import Home from '../Pages/Home'
 import Error from '../Pages/Error'
 
-// Here we define routes of my app 
+// Here we define routes of my app
 function App() {
   return (
     <div className="App">
