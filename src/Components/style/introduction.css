@@ -1,0 +1,29 @@
+/*Main Container Settings*/
+.introduction-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+/*Secondary Container*/
+.introSocials-container{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+}
+
+.introduction-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction-part .text-container h1{
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 35px;
+}
+.introduction-part .text-container h2{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
