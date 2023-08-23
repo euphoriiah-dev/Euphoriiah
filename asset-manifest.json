@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8b628896.css",
+    "main.js": "/static/js/main.b4c50a72.js",
+    "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.026368ee32b5c60625f4.pdf",
+    "static/media/profile_picture_eupho.webp": "/static/media/profile_picture_eupho.b9bd0ae75e9fe95529b1.webp",
+    "static/media/logo_1.webp": "/static/media/logo_1.020b9b291ce0c16be600.webp",
+    "index.html": "/index.html",
+    "main.8b628896.css.map": "/static/css/main.8b628896.css.map",
+    "main.b4c50a72.js.map": "/static/js/main.b4c50a72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b628896.css",
+    "static/js/main.b4c50a72.js"
+  ]
+}
