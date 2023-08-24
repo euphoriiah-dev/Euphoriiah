@@ -39,7 +39,7 @@
     padding: 10px 10px 10px 10px;
     border: solid #ffffff 1px;
     box-shadow: 1px 1px 6px rgb(0, 0, 0);
-    transition-duration: 600ms;
+    transition-duration: 100ms;
     z-index: 2;
     font-size: 25px; 
 }
