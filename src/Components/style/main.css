@@ -62,7 +62,8 @@
   }
 .main-container .p-one{
     background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://i.goopics.net/ury62a.jpg');
-   }
+    margin-top: 2em;
+}
    .content-text p{
     padding: 25px 50px 25px 50px;
     font-weight: 400;
