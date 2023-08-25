@@ -166,7 +166,6 @@ position: relative;
 /*CV Download*/
 .cv-download{
     position: absolute;
-    left: 12.5em;
     top: 32em;
     width: 80px;
 }
@@ -299,6 +298,11 @@ position: relative;
 }
 .introduction-part .text-container p{
     text-align: center;
-    margin: 2em 0 0 15%;
+    margin: 2em 0 0 10%;
+    width: 80%;
+}
+.introduction-part .cv-download{
+  top: 62em;
+  left: 39%;
 }
 }
