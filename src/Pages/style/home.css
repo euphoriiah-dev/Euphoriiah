@@ -1,7 +1,9 @@
 .home-container{
     display: flex;
     flex-direction: column;
+    block-size: 100%;
+    overflow: hidden;
 }
-.home-container .introduction{
-display: flex;  
+.home-container .introduction, .main-section{
+      height: 100vh;
 }

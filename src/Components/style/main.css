@@ -1,0 +1,86 @@
+/*___________CARD STYLE____________*/
+:root{
+    --blue: #94BCE9;
+    --alternative-blue: #4273ac;
+    --pink: #EEAECA ;
+    --alternative-pink: #E080AA ;
+    --text-color : #fff;
+    --alternative-text-color: #000 ;
+  }
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50em;
+}
+.main-container .first-section{
+    display: flex;
+    justify-content: center;
+}
+.main-container section:first-child{
+    position: relative;
+    height:180px;
+  }
+.main-container .titles{
+    position: absolute;
+    top: 50%;
+    margin-top:-35.5px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+  }
+.main-container .titles h1, .titles h2{
+    font-family:'Merriweather', sans-serif; 
+    font-size:28px; 
+    font-weight:400; 
+    text-transform: uppercase;
+    text-align: center;
+  }
+.main-container .titles h2{
+    font-size:20px;
+    font-weight:100;
+    letter-spacing: 5px;
+    margin-left: 13px;
+  }
+  .parallax-inner{
+    position:relative;
+    min-height: 500px;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .parallax-inner > h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20.5px;
+    width: 100%;
+    text-align: center;
+  }
+.main-container .p-one{
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://i.goopics.net/ury62a.jpg');
+   }
+   .content-text p{
+    padding: 25px 50px 25px 50px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 24px;
+    font-family: 'Raleway';
+    font-weight: 300;
+  }
+  .first-letter{
+    float: left;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 34px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 4px;
+  }
+  .line-break{
+    border-bottom: 1px solid #ffffff;
+    width: 200px;
+    margin: 0 auto;
+  }

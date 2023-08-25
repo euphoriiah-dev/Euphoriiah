@@ -108,6 +108,7 @@ position: relative;
 }
 .introduction-part .text-container h1{
     font-family: 'Merriweather';
+    text-transform: uppercase;
     font-weight: 300;
     font-size: 45px;
     position: relative;
@@ -136,12 +137,15 @@ position: relative;
   }
 .introduction-part .text-container h2{
     font-family: 'Raleway';
-    font-weight: 400;
-    margin: 0.5em 0 0 0;  
+    font-weight: 500;
+    margin: 0.5em 0 0 0;
+    text-transform: uppercase;  
 }
 .introduction-part .text-container p{
     width: 70%;
     font-family: 'Raleway';
+    font-weight: 300;
+    margin: 3em 0 0 0;
 }
 /*IMG*/
 .introduction-part .pp-container{
