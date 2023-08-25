@@ -29,7 +29,7 @@ function Main(){
       e recherche un poste en alternance pour la rentrée 2023, je suis disponible immédiatement.
       Je suis mobile sur Clermont-Ferrand, Vichy, Issoire, Riom, Roanne et sur Lyon ! 
       Comme je l'ai spécifié un peu plus haut, je recherche un poste en conception et design UI, en UX,
-      en webdesign mais éventuellement en communication digitale. </p>
+      en webdesign et éventuellement en communication digitale. </p>
             <div class="line-break"></div>
             <p></p>
           </div>
