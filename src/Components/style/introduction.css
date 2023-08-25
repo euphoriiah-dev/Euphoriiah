@@ -167,6 +167,7 @@ position: relative;
 .cv-download{
     position: absolute;
     top: 32em;
+    right: 77.5em;
     width: 80px;
 }
 .cv-download p{
@@ -302,7 +303,7 @@ position: relative;
     width: 80%;
 }
 .introduction-part .cv-download{
-  top: 62em;
+  top: 58em;
   left: 39%;
 }
 }
