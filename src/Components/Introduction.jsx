@@ -41,7 +41,7 @@ function Introduction () {
             </div>
             <div className="introduction-part">
                 <div className="pp-container">
-                    <img src={introPicture} alt="euphoriiah profile picture" />
+                    <img src={introPicture} alt="eupho profile pic" />
                 </div>
                 <div className="text-container">
                     <h1>Malory Begue</h1>

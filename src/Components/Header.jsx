@@ -6,7 +6,7 @@ import '../Components/style/header.css'
 import Logo from '../Assets/Logo/logo_1.webp'
 //Font Awesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faImage, faBriefcase ,faPhotoFilm} from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faImage, faBriefcase} from '@fortawesome/free-solid-svg-icons';
 
 function Header () {
     return (

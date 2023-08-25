@@ -1,8 +1,6 @@
 // React Imports
 import React from 'react';
 
-//IMG Imports
-import WebImage from '../Assets/Img/conception-web-ligne.jpg'
 // Style Import
 import '../Components/style/main.css'
 
