@@ -20,14 +20,14 @@ function Header () {
                       </Link>
                     </div>
                     <div class="btn-container">
-                      <Link to='#'>
+                      <Link to='2'>
                         <div class="button" id="btn-2">
                             <FontAwesomeIcon icon={faImage} className="icons"/>       
                         </div> 
                       </Link>
                     </div>
                     <div class="btn-container">
-                      <Link to='#'>
+                      <Link to='a'>
                         <div class="button" id="btn-4">
                         <FontAwesomeIcon icon={faBriefcase} className="icons" />
                         </div> 

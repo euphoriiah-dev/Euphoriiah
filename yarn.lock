@@ -6911,6 +6911,19 @@
   "resolved" "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
   "version" "2.2.0"
 
+"parallax-js@^3.1.0":
+  "integrity" "sha512-UONoPKSQykeNvFcemDPxYYDU/T89LSffoaZAwOMhDp0ABhmFPwthgn2GrfB7An9Qo+8nPZIuQeZsh2pWn1qN3A=="
+  "resolved" "https://registry.npmjs.org/parallax-js/-/parallax-js-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "object-assign" "^4.1.1"
+    "raf" "^3.3.0"
+
+"parallax@^0.0.0":
+  "integrity" "sha512-rzFe6y4aAsqhA1aGhNQTG32azrrVueNm5Lhyp2/yXYFbCuusO8VW6CqobtKqO2LBIUJBxYoRskVG2oTeBqdCpw=="
+  "resolved" "https://registry.npmjs.org/parallax/-/parallax-0.0.0.tgz"
+  "version" "0.0.0"
+
 "param-case@^3.0.4":
   "integrity" "sha512-RXlj7zCYokReqWpOPH9oYivUzLYZ5vAPIfEmCTNViosC78F8F0H9y7T7gG2M39ymgutxF5gcFEsyZQSph9Bp3A=="
   "resolved" "https://registry.npmjs.org/param-case/-/param-case-3.0.4.tgz"
@@ -7712,7 +7725,7 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
-"raf@^3.4.1":
+"raf@^3.3.0", "raf@^3.4.1":
   "integrity" "sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA=="
   "resolved" "https://registry.npmjs.org/raf/-/raf-3.4.1.tgz"
   "version" "3.4.1"

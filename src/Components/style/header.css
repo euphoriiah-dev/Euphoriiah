@@ -6,6 +6,12 @@
     --text-color : #fff;
     --alternative-text-color: #000 ;
   }
+.a{
+    color: var(--alternative-text-color);
+}
+.a:visited{
+color: var(--alternative-text-color);
+}
 .header-container{
     display: flex;
     flex-direction: row;
@@ -45,7 +51,6 @@
 }
 .header-container nav .icons:hover{
   transition: 100ms ease;
-  width: 35px;
   background-color: #ffffff;
 }
 /*_________________LOGO___________________*/

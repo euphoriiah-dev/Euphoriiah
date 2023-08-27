@@ -6,6 +6,7 @@ import '../Pages/style/App.css'
 import Header from '../Components/Header'
 import Home from '../Pages/Home'
 import Error from '../Pages/Error'
+import Gallery from '../Pages/Gallery'
 
 // Here we define routes of my app
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Header />
           <Routes>
             <Route exact path="/" element={<Home/>} />
+            <Route path="Gallery" element={<Gallery/>} />
             <Route path="*" element={<Error/>} />
           </Routes>
     </div>
