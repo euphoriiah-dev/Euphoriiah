@@ -54,7 +54,6 @@ function Main(){
         </section>
         <section className='section-4'>
           <div class="p-two parallax-inner">
-            <h2></h2>
           </div>
       </section>
     </div>
