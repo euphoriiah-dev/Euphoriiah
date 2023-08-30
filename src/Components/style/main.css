@@ -154,5 +154,15 @@ margin: 2em 0 2em 0;
     .main-container .p-two{
         min-height: 150px;
     }
+    .competences{
+      flex-wrap: wrap;
+    }
+    .competences .tags-container{
+      flex-wrap: wrap;
+      padding-left: 0;
+    }
+    .competences .tags-container li{
+      margin: 1em 0 0 0;
+    }
   }
 

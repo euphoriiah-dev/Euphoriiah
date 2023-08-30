@@ -6,12 +6,14 @@
     --text-color : #fff;
     --alternative-text-color: #000 ;
   }
-.a{
-    color: var(--alternative-text-color);
-}
-.a:visited{
+/*************LINKS COLORS************/
+a{
 color: var(--alternative-text-color);
 }
+a:visited{
+color: var(--alternative-text-color);
+}
+/*************************************/
 .header-container{
     display: flex;
     flex-direction: row;
