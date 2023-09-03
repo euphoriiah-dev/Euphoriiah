@@ -7,7 +7,7 @@
     --alternative-text-color: #000;
     --neutral-background-color: #fff;
   }
-h1{
+.portfolio-container h1{
   display: flex;
   font-family: 'Merriweather';
   text-transform: uppercase; 
