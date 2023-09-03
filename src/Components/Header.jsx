@@ -27,7 +27,7 @@ function Header () {
                       </Link>
                     </div>
                     <div class="btn-container">
-                      <Link to='a'>
+                      <Link to='Portfolio'>
                         <div class="button" id="btn-4">
                         <FontAwesomeIcon icon={faBriefcase} className="icons" />
                         </div> 

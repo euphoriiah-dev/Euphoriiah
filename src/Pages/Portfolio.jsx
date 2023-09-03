@@ -1,0 +1,65 @@
+// React Imports
+import React, { useState, useEffect } from 'react';
+// Style Import
+import '../Pages/style/portfolio.css'
+// Img imports
+import Booki from '../Assets/Img/Booki.png'
+import Kasa from '../Assets/Img/Kasa.png'
+import Euphoriiah from '../Assets/Img/Euphoriiah.png'
+import Ohmyfood from '../Assets/Img/Oh_my_food.png'
+
+function Portfolio(){
+    const [showBlocks, setShowBlocks] = useState(false);
+    const [order, setOrder] = useState(1); // Commencez par le premier bloc
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+          setShowBlocks(true);
+          setOrder(order + 1); // Augmentez l'ordre pour le prochain bloc
+        }, 600);
+    
+        return () => clearTimeout(timer);
+      }, [order]); // Assurez-vous de surveiller les changements de 'order'
+
+    return(
+        <section className='portfolio-container'>
+            <h1>Mes réalisations en développement web</h1>
+            <div className='grid-container'>
+                <a href='https://euphoriiah-dev.github.io/Booki/'>
+                    <div className={`block ${showBlocks && order >= 2 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={Booki} alt='Booki website screenshot' />
+                        </figure>
+                        <p>Booki</p>
+                    </div>
+                </a>
+                <a href='https://euphoriiah-dev.github.io/Kasa/'>
+                    <div className={`block ${showBlocks && order >= 3 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={Kasa} alt='Kasa website screenshot' />
+                        </figure>
+                        <p>Kasa</p>
+                    </div>
+                </a>
+                <a href='https://euphoriiah.fr'>
+                    <div className={`block ${showBlocks && order >= 4 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={Euphoriiah} alt='Euphoriiah website screenshot' />
+                        </figure>
+                        <p>Euphoriiah</p>
+                    </div>
+                </a>
+                <a href='https://malorybeguem.github.io/Oh_my_Food/index.html'>
+                    <div className={`block ${showBlocks && order >= 5 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={Ohmyfood} alt='Oh my food website screenshot' />
+                        </figure>
+                        <p>Oh my food</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    );
+}
+
+export default Portfolio

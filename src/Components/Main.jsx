@@ -47,7 +47,6 @@ function Main(){
                   <li>Digital painting</li>
                   <li>Retouche d'images</li>
                   <li>Gestion de réseaux sociaux</li>
-                  <li>Résolution de problèmes</li>
                 </ul>
             </div>
           </div>
