@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.245e4a37.css",
-    "main.js": "/static/js/main.d489cf90.js",
+    "main.css": "/static/css/main.02cdc143.css",
+    "main.js": "/static/js/main.822735db.js",
     "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.877a365737d4d0bedda1.pdf",
     "static/media/profile_picture_eupho.webp": "/static/media/profile_picture_eupho.b9bd0ae75e9fe95529b1.webp",
+    "static/media/Kasa.png": "/static/media/Kasa.65a5c7a298c70673c1ab.png",
+    "static/media/Oh_my_food.png": "/static/media/Oh_my_food.31af1b37817086f67b37.png",
+    "static/media/Booki.png": "/static/media/Booki.eb50832e3d5f4056d0d5.png",
+    "static/media/Euphoriiah.png": "/static/media/Euphoriiah.69b6abd73d2238ec4343.png",
     "static/media/logo_1.webp": "/static/media/logo_1.020b9b291ce0c16be600.webp",
     "index.html": "/index.html",
-    "main.245e4a37.css.map": "/static/css/main.245e4a37.css.map",
-    "main.d489cf90.js.map": "/static/js/main.d489cf90.js.map"
+    "main.02cdc143.css.map": "/static/css/main.02cdc143.css.map",
+    "main.822735db.js.map": "/static/js/main.822735db.js.map"
   },
   "entrypoints": [
-    "static/css/main.245e4a37.css",
-    "static/js/main.d489cf90.js"
+    "static/css/main.02cdc143.css",
+    "static/js/main.822735db.js"
   ]
 }
