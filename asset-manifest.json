@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f06fa977.css",
-    "main.js": "/static/js/main.822735db.js",
+    "main.css": "/static/css/main.038ca7a8.css",
+    "main.js": "/static/js/main.bb8dad21.js",
+    "static/media/La-panthere.PNG": "/static/media/La-panthere.1d823aa7511ce6563cca.PNG",
     "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.877a365737d4d0bedda1.pdf",
     "static/media/profile_picture_eupho.webp": "/static/media/profile_picture_eupho.b9bd0ae75e9fe95529b1.webp",
     "static/media/Kasa.png": "/static/media/Kasa.65a5c7a298c70673c1ab.png",
     "static/media/Oh_my_food.png": "/static/media/Oh_my_food.31af1b37817086f67b37.png",
     "static/media/Booki.png": "/static/media/Booki.eb50832e3d5f4056d0d5.png",
+    "static/media/Kanap.PNG": "/static/media/Kanap.6d14ff0db8db97d430f4.PNG",
     "static/media/Euphoriiah.png": "/static/media/Euphoriiah.69b6abd73d2238ec4343.png",
     "static/media/logo_1.webp": "/static/media/logo_1.020b9b291ce0c16be600.webp",
+    "static/media/piiquante.webp": "/static/media/piiquante.7c9629e0f411e241521e.webp",
     "index.html": "/index.html",
-    "main.f06fa977.css.map": "/static/css/main.f06fa977.css.map",
-    "main.822735db.js.map": "/static/js/main.822735db.js.map"
+    "main.038ca7a8.css.map": "/static/css/main.038ca7a8.css.map",
+    "main.bb8dad21.js.map": "/static/js/main.bb8dad21.js.map"
   },
   "entrypoints": [
-    "static/css/main.f06fa977.css",
-    "static/js/main.822735db.js"
+    "static/css/main.038ca7a8.css",
+    "static/js/main.bb8dad21.js"
   ]
 }
