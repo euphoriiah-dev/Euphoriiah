@@ -1,5 +1,6 @@
 // React Imports
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 // Style Import
 import '../Components/style/main.css'
@@ -55,6 +56,18 @@ function Main(){
           <div class="p-two parallax-inner">
           </div>
       </section>
+      <div className='portfolio-part'>
+            <h2> Vous trouverez toutes mes réalisations par ici ! </h2>
+            <Link to='Portfolio'>
+                <button className='portfolio-button'>
+                    Mon portfolio
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
+                    <span class="fourth"></span>
+                </button>
+              </Link>
+        </div>
     </div>
   )
 }
