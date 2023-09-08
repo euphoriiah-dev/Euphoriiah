@@ -9,6 +9,7 @@ import Euphoriiah from '../Assets/Img/Euphoriiah.png'
 import Ohmyfood from '../Assets/Img/Oh_my_food.png'
 import Piiquante from '../Assets/Img/piiquante.webp'
 import Kanap from '../Assets/Img/Kanap.PNG'
+import LaPanthere from '../Assets/Img/La-panthere.PNG'
 
 function Portfolio(){
     const [showBlocks, setShowBlocks] = useState(false);
@@ -67,12 +68,20 @@ function Portfolio(){
                         <p>Piiquante</p>
                     </div>
                 </a>
-                <a href='https://github.com/malorybeguem/P6-Begue-Malory-Piiquante-09-22'>
+                <a href='https://github.com/malorybeguem/P5_Kanap'>
                     <div className={`block ${showBlocks && order >= 7 ? 'visible' : ''}`}>
                         <figure>
-                            <img src={Kanap} alt='piiquante website scrren' />
+                            <img src={Kanap} alt='Kanap website scrren' />
                         </figure>
                         <p>Kanap</p>
+                    </div>
+                </a>
+                <a href='https://malorybeguem.github.io/Malory_Begue_p4/'>
+                    <div className={`block ${showBlocks && order >= 8 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={LaPanthere} alt='la panthere website scrren' />
+                        </figure>
+                        <p>La panthère</p>
                     </div>
                 </a>
             </div>
