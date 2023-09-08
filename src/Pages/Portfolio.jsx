@@ -7,6 +7,8 @@ import Booki from '../Assets/Img/Booki.png'
 import Kasa from '../Assets/Img/Kasa.png'
 import Euphoriiah from '../Assets/Img/Euphoriiah.png'
 import Ohmyfood from '../Assets/Img/Oh_my_food.png'
+import Piiquante from '../Assets/Img/piiquante.webp'
+import Kanap from '../Assets/Img/Kanap.PNG'
 
 function Portfolio(){
     const [showBlocks, setShowBlocks] = useState(false);
@@ -55,6 +57,22 @@ function Portfolio(){
                             <img src={Ohmyfood} alt='Oh my food website screenshot' />
                         </figure>
                         <p>Oh my food</p>
+                    </div>
+                </a>
+                <a href='https://github.com/malorybeguem/P6-Begue-Malory-Piiquante-09-22'>
+                    <div className={`block ${showBlocks && order >= 6 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={Piiquante} alt='piiquante website scrren' />
+                        </figure>
+                        <p>Piiquante</p>
+                    </div>
+                </a>
+                <a href='https://github.com/malorybeguem/P6-Begue-Malory-Piiquante-09-22'>
+                    <div className={`block ${showBlocks && order >= 7 ? 'visible' : ''}`}>
+                        <figure>
+                            <img src={Kanap} alt='piiquante website scrren' />
+                        </figure>
+                        <p>Kanap</p>
                     </div>
                 </a>
             </div>
