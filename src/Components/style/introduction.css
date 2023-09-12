@@ -81,7 +81,7 @@ position: relative;
     background: #3b5999;
 }
 .introSocials-container ul li:nth-child(2) a:before{
-    background: #55acee;
+    background: #000000;
 }
 .introSocials-container ul li:nth-child(3) a:before{
     background: #0077b5;
