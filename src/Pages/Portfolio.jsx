@@ -128,6 +128,10 @@ function Portfolio(){
                     <div className='img-1-container'>
                         <h3>Activ' Project</h3>
                         <img src={ActivUi} alt='screen Activ project' />
+                        <div className='design-tags'> 
+                                <p className='tags'>Figma</p>
+                                <p className='tags'>Photoshop</p>
+                        </div>
                     </div>
                 </section>
 

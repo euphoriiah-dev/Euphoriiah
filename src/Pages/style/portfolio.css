@@ -130,7 +130,7 @@
   .design-container{
     width: 100%;
     position: absolute;
-    top: 70em;
+    top: 60em;
   }
   .design-container .Uiux-section{
     width: 100%;
@@ -144,7 +144,12 @@
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 100px;
+    height: 500px;
+    border: #fff 1px solid;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 0 1em 0;
   }
   .design-container .Uiux-section img{
     object-fit: contain;
@@ -156,5 +161,27 @@
     padding: 10px;
     border: solid 1px var(--text-color);
     border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .design-container .design-tags{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .design-container .Uiux-section .tags{
+  display: flex;
+  padding: 2px;
+  margin: 10px 0 0 0;
+  width: 30%;
+  font-family: 'Raleway';
+  font-weight: 300;
+  background-color: var(--alternative-blue);
+  justify-content: center;
+  border-radius: 5px;
+  color: var(--text-color);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border:  solid 1px var(--neutral-background-color);
   }
   
