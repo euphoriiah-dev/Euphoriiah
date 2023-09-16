@@ -121,7 +121,9 @@ function Portfolio(){
             <h1 className='second-title'>Mes travaux en Design</h1>
             <section className='design-container'>
                 <section className='logo-section'>
+                    <div className=''>
 
+                    </div>
                 </section>
                 <section className='Uiux-section'>
 
