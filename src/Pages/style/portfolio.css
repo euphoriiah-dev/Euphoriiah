@@ -113,5 +113,14 @@
     transition: all 0.25s ease-in-out;
     font-weight: 400;
   }
+  /*DESIGN PART*/
+  .portfolio-container .second-title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 30em;
+    left: 30%;
+    right: 30%;
+  }
 
   
