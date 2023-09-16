@@ -10,6 +10,7 @@ import Ohmyfood from '../Assets/Img/Oh_my_food.png'
 import Piiquante from '../Assets/Img/piiquante.webp'
 import Kanap from '../Assets/Img/Kanap.PNG'
 import LaPanthere from '../Assets/Img/La-panthere.PNG'
+import ActivUi from '../Assets/Img/ActivUi1.png'
 
 function Portfolio(){
     const [showBlocks, setShowBlocks] = useState(false);
@@ -121,12 +122,13 @@ function Portfolio(){
             <h1 className='second-title'>Mes travaux en Design</h1>
             <section className='design-container'>
                 <section className='logo-section'>
-                    <div className=''>
-
-                    </div>
+                    
                 </section>
                 <section className='Uiux-section'>
-
+                    <div className='img-1-container'>
+                        <h3>Activ' Project</h3>
+                        <img src={ActivUi} alt='screen Activ project' />
+                    </div>
                 </section>
 
             </section>

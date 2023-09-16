@@ -18,12 +18,17 @@
 }
 .portfolio-container{
     margin: 5em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .grid-container {
-    columns: 5 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 1.5rem;
-    width: 90%;
-    margin: 0 auto;
+    row-gap: 3rem;  
   }
   figure{
     width: 100%;
@@ -34,16 +39,16 @@
   }
   
   .grid-container div {
-    margin: 0 1.5rem 1.5rem 0;
-    display: inline-block;
-    width: 100%;
-    height: 175px;
+    display:inline-block;
+    width: 80%;
+    max-height: 210px;
     border: solid 1px rgb(255, 255, 255);
     padding: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     transition: all 0.25s ease-in-out;
     background-color: var(--neutral-background-color);
+    margin: 0 0 0 9%;
   }
   
   .grid-container div:hover img {
@@ -52,7 +57,7 @@
   
   .grid-container div:hover {
     border-color: var(--alternative-blue);
-    height: 210px;
+    max-height: 210px;
     transition: all 0.25s ease-in-out;
   }
   .grid-container div:hover .tags{
@@ -113,14 +118,43 @@
     transition: all 0.25s ease-in-out;
     font-weight: 400;
   }
-  /*DESIGN PART*/
+  /******************DESIGN PART*****************/
   .portfolio-container .second-title{
     position: absolute;
     display: flex;
     justify-content: center;
-    top: 30em;
+    top: 35em;
     left: 30%;
     right: 30%;
   }
-
+  .design-container{
+    width: 100%;
+    position: absolute;
+    top: 70em;
+  }
+  .design-container .Uiux-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .design-container .Uiux-section .img-1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+  }
+  .design-container .Uiux-section img{
+    object-fit: contain;
+    width: 100%;
+  }
+  .design-container .Uiux-section h3{
+    font-family: 'Raleway';
+    font-weight: 400;
+    padding: 10px;
+    border: solid 1px var(--text-color);
+    border-radius: 10px;
+  }
   
