@@ -33,7 +33,11 @@ function Portfolio(){
                         <figure>
                             <img src={Booki} alt='Booki website screenshot' />
                         </figure>
-                        <p>Booki</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                        </section>
+                        <p className='names'>Booki</p>
                     </div>
                 </a>
                 <a href='https://euphoriiah-dev.github.io/Kasa/'>
@@ -41,7 +45,12 @@ function Portfolio(){
                         <figure>
                             <img src={Kasa} alt='Kasa website screenshot' />
                         </figure>
-                        <p>Kasa</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                            <p className='tags'>React</p>
+                        </section>
+                        <p className='names'>Kasa</p>
                     </div>
                 </a>
                 <a href='https://euphoriiah.fr'>
@@ -49,7 +58,12 @@ function Portfolio(){
                         <figure>
                             <img src={Euphoriiah} alt='Euphoriiah website screenshot' />
                         </figure>
-                        <p>Euphoriiah</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                            <p className='tags'>React</p>
+                        </section>
+                        <p className='names' >Euphoriiah</p>
                     </div>
                 </a>
                 <a href='https://malorybeguem.github.io/Oh_my_Food/index.html'>
@@ -57,7 +71,11 @@ function Portfolio(){
                         <figure>
                             <img src={Ohmyfood} alt='Oh my food website screenshot' />
                         </figure>
-                        <p>Oh my food</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                        </section>
+                        <p className='names'>Oh my food</p>
                     </div>
                 </a>
                 <a href='https://github.com/malorybeguem/P6-Begue-Malory-Piiquante-09-22'>
@@ -65,7 +83,13 @@ function Portfolio(){
                         <figure>
                             <img src={Piiquante} alt='piiquante website scrren' />
                         </figure>
-                        <p>Piiquante</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                            <p className='tags'>JS</p>
+                            <p className='tags'>Node</p>
+                        </section>
+                        <p className='names'>Piiquante</p>
                     </div>
                 </a>
                 <a href='https://github.com/malorybeguem/P5_Kanap'>
@@ -73,7 +97,12 @@ function Portfolio(){
                         <figure>
                             <img src={Kanap} alt='Kanap website scrren' />
                         </figure>
-                        <p>Kanap</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                            <p className='tags'>JS</p>
+                        </section>
+                        <p className='names'>Kanap</p>
                     </div>
                 </a>
                 <a href='https://malorybeguem.github.io/Malory_Begue_p4/'>
@@ -81,7 +110,11 @@ function Portfolio(){
                         <figure>
                             <img src={LaPanthere} alt='la panthere website scrren' />
                         </figure>
-                        <p>La panthère</p>
+                        <section className='portfolio-tags'>
+                            <p className='tags'>HTML</p>
+                            <p className='tags'>CSS</p>
+                        </section>
+                        <p className='names'>La panthère</p>
                     </div>
                 </a>
             </div>
