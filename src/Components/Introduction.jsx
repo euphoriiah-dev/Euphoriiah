@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faXTwitter, faLinkedinIn, faInstagram} from '@fortawesome/free-brands-svg-icons';
 // IMG Imports
-import introPicture from '../Assets/Img/profile_picture_eupho.webp';
+import introPicture from '../Assets/Img/profile_picture_eupho.jpg';
 // Style Imports
 import '../Components/style/introduction.css';
 import monCV from '../Assets/Documents/CV-Malory_Begue_1.pdf'
