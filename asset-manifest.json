@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.50acbcdf.css",
-    "main.js": "/static/js/main.261ce9a6.js",
-    "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.403c51333d13b264fbfe.pdf",
+    "main.css": "/static/css/main.99e4afe7.css",
+    "main.js": "/static/js/main.c913c220.js",
+    "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.a034c0f6e7f2ad23eafd.pdf",
     "static/media/La-panthere.PNG": "/static/media/La-panthere.1d823aa7511ce6563cca.PNG",
     "static/media/Kasa.png": "/static/media/Kasa.65a5c7a298c70673c1ab.png",
     "static/media/Oh_my_food.png": "/static/media/Oh_my_food.31af1b37817086f67b37.png",
+    "static/media/profile_picture_eupho.png": "/static/media/profile_picture_eupho.feaa01779c836ac51179.png",
     "static/media/Booki.png": "/static/media/Booki.eb50832e3d5f4056d0d5.png",
     "static/media/Kanap.PNG": "/static/media/Kanap.6d14ff0db8db97d430f4.PNG",
-    "static/media/profile_picture_eupho.jpg": "/static/media/profile_picture_eupho.c9946e7bbdde8ba6115a.jpg",
     "static/media/ActivUi1.png": "/static/media/ActivUi1.df3b6ece46d76e1ede35.png",
     "static/media/Euphoriiah.png": "/static/media/Euphoriiah.69b6abd73d2238ec4343.png",
     "static/media/logo_1.webp": "/static/media/logo_1.020b9b291ce0c16be600.webp",
     "static/media/piiquante.webp": "/static/media/piiquante.7c9629e0f411e241521e.webp",
     "index.html": "/index.html",
-    "main.50acbcdf.css.map": "/static/css/main.50acbcdf.css.map",
-    "main.261ce9a6.js.map": "/static/js/main.261ce9a6.js.map"
+    "main.99e4afe7.css.map": "/static/css/main.99e4afe7.css.map",
+    "main.c913c220.js.map": "/static/js/main.c913c220.js.map"
   },
   "entrypoints": [
-    "static/css/main.50acbcdf.css",
-    "static/js/main.261ce9a6.js"
+    "static/css/main.99e4afe7.css",
+    "static/js/main.c913c220.js"
   ]
 }
