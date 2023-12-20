@@ -4,6 +4,7 @@
     block-size: 100%;
     overflow: hidden;
 }
-.home-container .introduction, .main-section{
-      height: 100vh;
-}
+.page-background {
+    position: relative;
+    height: 100vh; /* Hauteur de la fenêtre */
+  }
