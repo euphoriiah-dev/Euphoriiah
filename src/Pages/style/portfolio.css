@@ -137,8 +137,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 0 0 6em 0;
   }
-  .design-container .Uiux-section .img-1-container{
+  .design-container .Uiux-section .img-1-container,.img-2-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,8 +149,17 @@
     border: #fff 1px solid;
     overflow: hidden;
     border-radius: 25px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
     margin: 0 0 1em 0;
+    background-color: #ffffff32;
+  }
+  .design-container .Uiux-section .img-2-container{
+    padding: 0 1em 0 1em;
+  }
+  .design-container .Uiux-section .img-2-container img{
+  margin: 0 0 2em 0;
+  border-radius: 25px;
+  border: solid 1px var(--alternative-text-color);
   }
   .design-container .Uiux-section img{
     object-fit: contain;
@@ -163,7 +173,6 @@
     border: solid 1px var(--text-color);
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   }
   .design-container .design-tags{
     display: flex;

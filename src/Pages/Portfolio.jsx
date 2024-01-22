@@ -11,6 +11,8 @@ import Piiquante from '../Assets/Img/piiquante.webp'
 import Kanap from '../Assets/Img/Kanap.PNG'
 import LaPanthere from '../Assets/Img/La-panthere.PNG'
 import ActivUi from '../Assets/Img/ActivUi1.png'
+import SaveursBio from '../Assets/Img/saveursBioMarket_01.png'
+import Background from '../Components/Background';
 
 function Portfolio(){
     const [showBlocks, setShowBlocks] = useState(false);
@@ -26,6 +28,8 @@ function Portfolio(){
       }, [order]); // Assurez-vous de surveiller les changements de 'order'
 
     return(
+<div className='page-background'> 
+    <Background />
         <section className='portfolio-container'>
             <h1>Mes réalisations en développement web</h1>
             <div className='grid-container'>
@@ -125,7 +129,7 @@ function Portfolio(){
                     
                 </section>
                 <section className='Uiux-section'>
-                    <div className='img-1-container'>
+                    <div className='img-1-container item01'>
                         <h3>Activ' Project</h3>
                         <img src={ActivUi} alt='screen Activ project' />
                         <div className='design-tags'> 
@@ -133,10 +137,20 @@ function Portfolio(){
                                 <p className='tags'>Photoshop</p>
                         </div>
                     </div>
+                    <div className='img-2-container item02'>
+                        <h3>Saveurs Bio Market</h3>
+                        <img src={SaveursBio} alt='screen Saveurs Bio' />
+                        <div className='design-tags'> 
+                                <p className='tags'>Figma</p>
+                                <p className='tags'>Photoshop</p>
+                                <p className='tags'>Illustrator</p>
+                        </div>
+                    </div>
                 </section>
 
             </section>
         </section>
+</div>
     );
 }
 
