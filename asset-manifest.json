@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.17ace2e8.css",
-    "main.js": "/static/js/main.a7cac49a.js",
-    "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.a034c0f6e7f2ad23eafd.pdf",
+    "main.js": "/static/js/main.29ea8ed3.js",
+    "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.fe015b38431f6ba72875.pdf",
     "static/media/La-panthere.PNG": "/static/media/La-panthere.1d823aa7511ce6563cca.PNG",
     "static/media/Kasa.png": "/static/media/Kasa.65a5c7a298c70673c1ab.png",
     "static/media/saveursBioMarket_01.png": "/static/media/saveursBioMarket_01.82699ba22180787d7ff3.png",
@@ -16,10 +16,10 @@
     "static/media/piiquante.webp": "/static/media/piiquante.7c9629e0f411e241521e.webp",
     "index.html": "/index.html",
     "main.17ace2e8.css.map": "/static/css/main.17ace2e8.css.map",
-    "main.a7cac49a.js.map": "/static/js/main.a7cac49a.js.map"
+    "main.29ea8ed3.js.map": "/static/js/main.29ea8ed3.js.map"
   },
   "entrypoints": [
     "static/css/main.17ace2e8.css",
-    "static/js/main.a7cac49a.js"
+    "static/js/main.29ea8ed3.js"
   ]
 }
