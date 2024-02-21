@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17ace2e8.css",
-    "main.js": "/static/js/main.29ea8ed3.js",
+    "main.js": "/static/js/main.ecd9a406.js",
     "static/media/CV-Malory_Begue_1.pdf": "/static/media/CV-Malory_Begue_1.fe015b38431f6ba72875.pdf",
     "static/media/La-panthere.PNG": "/static/media/La-panthere.1d823aa7511ce6563cca.PNG",
     "static/media/Kasa.png": "/static/media/Kasa.65a5c7a298c70673c1ab.png",
@@ -16,10 +16,10 @@
     "static/media/piiquante.webp": "/static/media/piiquante.7c9629e0f411e241521e.webp",
     "index.html": "/index.html",
     "main.17ace2e8.css.map": "/static/css/main.17ace2e8.css.map",
-    "main.29ea8ed3.js.map": "/static/js/main.29ea8ed3.js.map"
+    "main.ecd9a406.js.map": "/static/js/main.ecd9a406.js.map"
   },
   "entrypoints": [
     "static/css/main.17ace2e8.css",
-    "static/js/main.29ea8ed3.js"
+    "static/js/main.ecd9a406.js"
   ]
 }
