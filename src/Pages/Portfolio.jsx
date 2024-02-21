@@ -30,7 +30,7 @@ function Portfolio(){
     return(
 <div className='page-background'> 
     <Background />
-        <section className='portfolio-container'>
+        <section className='portfolio-container' id='myPortfolio'>
             <h1>Mes réalisations en développement web</h1>
             <div className='grid-container'>
                 <a href='https://euphoriiah-dev.github.io/Booki/'>

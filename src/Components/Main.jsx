@@ -1,6 +1,6 @@
 // React Imports
-import React from 'react';
-import { Link } from 'react-router-dom'
+import React from 'react'
+import {HashLink} from 'react-router-hash-link'
 
 
 // Style Import
@@ -58,7 +58,7 @@ function Main(){
       </section>
       <div className='portfolio-part'>
             <h2> Vous trouverez toutes mes réalisations par ici ! </h2>
-            <Link to='Portfolio'>
+            <HashLink smooth to='/Portfolio/#myPortfolio'>
                 <button className='portfolio-button'>
                     Mon portfolio
                     <span class="first"></span>
@@ -66,7 +66,7 @@ function Main(){
                     <span class="third"></span>
                     <span class="fourth"></span>
                 </button>
-              </Link>
+              </HashLink>
         </div>
     </div>
   )
