@@ -45,7 +45,7 @@ function Introduction () {
                 </div>
                 <div className="text-container">
                     <h1>Malory Begue</h1>
-                    <h2> Développeuse web front-end & future concepteur designer UI </h2>
+                    <h2> Développeuse web front-end & designer UI </h2>
                     <p>
                     Salut ! Moi, c'est Malory, une aventurière digitale naviguant dans l'univers 
                     du développement web. Je pourrais vous raconter que j'ai toujours su que je finirais par taper
